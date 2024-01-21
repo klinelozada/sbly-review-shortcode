@@ -7,7 +7,7 @@
     "bump-version": "node update-version.js"
   },
   "devDependencies": {
-    "npm-version": "^9.1.2" // Replace with the actual version installed
+    "npm-version": "^9.1.2"
   },
   "keywords": [],
   "author": "",
