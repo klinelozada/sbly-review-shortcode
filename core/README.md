@@ -10,8 +10,8 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### [Author Bio] Specialist Version
 #### Screenshots
-![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/specialist-author-bio.png)
-![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/specialist-author-bio.png)
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/specialist-author-bio.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/specialist-author-bio.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -20,8 +20,8 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Specialist At A Glance
 #### Screenshots
-![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/specialist-glance.png)
-![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/specialist-glance.png)
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/specialist-glance.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/specialist-glance.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -33,9 +33,9 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### [Product Review] Specialist Version
 #### Screenshots
-![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/specialist.png)
-![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/specialist.png)
-![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/specialist-2.png)
+![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/specialist.png)
+![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/specialist.png)
+![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/specialist-2.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -48,9 +48,9 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Wirecutter Version
 #### Screenshots
-![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/wirecutter.png)
-![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/wirecutter.png)
-![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/wirecutter-2.png)
+![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/wirecutter.png)
+![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/wirecutter.png)
+![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/wirecutter-2.png)
 
 #### Shortcode Usage
 ```
@@ -65,8 +65,8 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Everything We Recommend
 #### Screenshots
-![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/everything-we-recommend.png)
-![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/everything-we-recommend.png)
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/everything-we-recommend.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/everything-we-recommend.png)
 
 #### Shortcode Usage
 ```
@@ -99,8 +99,8 @@ item_buying_options_2="$60 from Ebay, https://ebay.com"
 
 ### Pick and Tested
 #### Screenshots
-![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/desktop/pick-and-tested.png)
-![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/screenshots/mobile/pick-and-tested.png)
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/pick-and-tested.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/pick-and-tested.png)
 
 #### Shortcode Usage
 ```
