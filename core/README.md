@@ -10,8 +10,8 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### [Author Bio] Specialist Version
 #### Screenshots
-![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-desktop.png)
-![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-mobile.png)
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/specialist-author-bio.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/specialist-author-bio.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -20,8 +20,8 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Specialist At A Glance
 #### Screenshots
-![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-desktop.png)
-![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-mobile.png)
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/specialist-glance.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/specialist-glance.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -33,9 +33,9 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### [Product Review] Specialist Version
 #### Screenshots
-![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-desktop.png)
-![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile.png)
-![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile-2.png)
+![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/specialist.png)
+![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/specialist.png)
+![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/specialist-2.png)
 
 #### Shortcode Usage
 ```shortcode
@@ -48,9 +48,9 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Wirecutter Version
 #### Screenshots
-![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-desktop.png)
-![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile.png)
-![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile-2.png)
+![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/wirecutter.png)
+![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/wirecutter.png)
+![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/wirecutter-2.png)
 
 #### Shortcode Usage
 ```
@@ -61,6 +61,55 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 [rp__review item_label="Budget Pick" item_title="Weekender Gel Memory Foam Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/32744/Weekender-Gel-Memory-Foam-Pillow-_20190531-133508_full.jpeg" item_button_1="$32 from Amazon, standard size, https://www.nytimes.com/wirecutter/out/link/32744/154072/4/109234?merchant=Amazon" item_button_2="$51 from Walmart, https://www.nytimes.com/wirecutter/out/link/32744/173820/4/109234?merchant=Walmart" item_tags="A high-quality layered-foam pillow"]
 [rp_excerpt]The most affordable memory-foam pillow we tried is also our favorite one-piece foam pillow. It offered some of the best neck and shoulder support without overheating our testers.[/rp_excerpt]
 [/rp__review]
+```
+
+### Everything We Recommend
+#### Screenshots
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/everything-we-recommend.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/everything-we-recommend.png)
+
+#### Shortcode Usage
+```
+[sbly_slider_review headline="Everything we recommend"]
+
+[sbly_slider_item
+item_headline="Our Pick"
+item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg"
+item_title="Ultimate Ears Wonderboom 3"
+item_link="https://google.com/"
+item_label="The best portable Bluetooth speaker"
+item_description="This small, round speaker has a natural sound and a cool design, and it's built to survive outdoor adventures. But it's a little chunky, and it uses an outdated Micro-USB port for charging."
+item_buying_options_1="$80 from Amazon, https://link.com"
+item_buying_options_2="$60 from Ebay, https://ebay.com"
+]
+
+[sbly_slider_item
+item_headline="Runner Up"
+item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg"
+item_title="Soundcore Motion 300"
+item_link="https://google.com/"
+item_label="If USB-C charging is a must-have"
+item_description="This speaker is larger than our top pick, but its slender form may fit more easily into tight spaces. The sound quality is comparable, and it offers convenient USB-C charging."
+item_buying_options_1="$80 from Amazon, https://link.com"
+item_buying_options_2="$60 from Ebay, https://ebay.com"
+]
+
+[/sbly_slider_review]
+```
+
+### Pick and Tested
+#### Screenshots
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/desktop/pick-and-tested.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/mobile/pick-and-tested.png)
+
+#### Shortcode Usage
+```
+[sbly_checklist headline="How we picked and tested" link="Read More, https://google.com"]
+[sbly_checklist_item title="Panel Testing" description="We tested Bluetooth speakers with expert listeners, and we concealed the identities of the speakers to eliminate bias"]
+[sbly_checklist_item title="Real-world Trials" description="We continue to spend many hours with our recommended speakers to make sure they survive day-to-day use."]
+[sbly_checklist_item title="Wide range of models" description="The speakers we tested ranged from tiny travel models to 40-pound backyard blasters. All of them included rechargeable batteries."]
+[sbly_checklist_item title="Price Range" description="To give readers a full picture of the category, we tested models priced as low as $10 and as high as $500."]
+[/sbly_checklist]
 ```
 
 ## Contribution
