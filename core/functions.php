@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Enqueue styles
  */
 function child_enqueue_styles() {
 
-    wp_enqueue_style('review-shortcode-css', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
+    wp_enqueue_style('review-shortcode-css', plugin_dir_url( __FILE__ ) . 'style.css', array(), '1.0', 'all');
 
 }
 
@@ -22,7 +23,7 @@ function enqueue_custom_scripts() {
     wp_enqueue_script('rp-circle-progress-js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js', array('jquery'), '1.1.3', true);
 
     // Enqueue RP App
-    wp_enqueue_script('rp-app', get_stylesheet_directory_uri() . '/js/rp.app.js', array(), '1.0.0', true);
+    wp_enqueue_script('rp-app', plugin_dir_url( __FILE__ ) . 'js/rp.app.js', array(), '1.0.0', true);
 
 }
 
@@ -159,7 +160,6 @@ function rp_item_review_sc($atts, $content = null) {
                 <div class="rp-score score-98">
                     <div class="score">' . esc_html($item_score) . '</div>
                 </div>
-            
                 <a href="' . esc_url($item_score_link) . '" class="rp-rating-link" style="background:#'.esc_html($item_style_button_color).'">Check Price</a>
 
             </div>
@@ -239,7 +239,7 @@ function rp_at_a_glance($atts, $content = null) {
   $item_style_button_color = $atts['item_style_button_color'];
   
   // Item Review Container
-  $html = '<div class="review-product-container review-glance" style="border:solid 3px #' . esc_html($item_style_border_color) . ';">';
+  $html = '<div class="review-product-container-glance review-glance" style="border:solid 3px #' . esc_html($item_style_border_color) . ';">';
 
   // Header
 

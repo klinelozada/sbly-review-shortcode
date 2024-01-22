@@ -101,3 +101,11 @@ class Sbly_Review_Shortcode_Admin {
 	}
 
 }
+
+/**
+ * Adding core files
+ *
+ * @since    1.2.12
+ */
+
+require_once(plugin_dir_path(__FILE__) . '../core/functions.php');
