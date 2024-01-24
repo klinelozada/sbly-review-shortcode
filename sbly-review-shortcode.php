@@ -3,7 +3,7 @@
  * Plugin Name: SBLY - Review Shortcode
  * Plugin URI: https://sbly.com
  * Description: SBLY is a leading content platform that provides captivating and viral video content that's perfect for enhancing your website's user experience. With our SBLY Shortcode Plugin, you can easily embed SBLY videos, articles, and other media on your WordPress site with just a few simple shortcodes.
- * Version: 1.4.5
+ * Version: 1.4.6
  * Author: SBLY
  * Author URI: https://codemeplz.com/
  * License: GPL-2.0+

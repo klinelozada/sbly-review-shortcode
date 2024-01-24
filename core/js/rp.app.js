@@ -54,24 +54,4 @@ $(document).ready(function() {
         });
     });
 
-    // Slider
-    $('.sbly--review-sliders').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: false,
-        arrows: false,
-        dots: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 1
-            }
-        }]
-    });
-
 });

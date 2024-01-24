@@ -25,15 +25,6 @@ function enqueue_custom_scripts() {
     // Enqueue RP App
     wp_enqueue_script('rp-app', plugin_dir_url( __FILE__ ) . 'js/rp.app.js', array(), '1.0.0', true);
 
-    // Enqueue for Slider
-    wp_enqueue_script('slick-carousel', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), '1.8.1', true);
-
-    // Enqueue Slick Carousel CSS
-    wp_enqueue_style('slick-carousel-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css', array(), '1.8.1');
-
-    // Enqueue Slick Carousel Theme CSS
-    wp_enqueue_style('slick-carousel-theme-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array('slick-carousel'), '1.8.1');
-
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
@@ -41,9 +32,9 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 function rp_author_review_sc($atts, $content = null) {
     $atts = shortcode_atts(
         array(
-            'avatar' => 'https://pillowspecialist.com/img/profile.webp',
-            'author' => 'John Doe',
-            'position' => 'Obsessive Tester. Avid Dreamer',
+            'avatar' => '',
+            'author' => '',
+            'position' => '',
         ),
         $atts,
         'rp_author_review'
@@ -169,7 +160,7 @@ function rp_item_review_sc($atts, $content = null) {
                 <div class="rp-score score-98">
                     <div class="score">' . esc_html($item_score) . '</div>
                 </div>
-                <a href="' . esc_url($item_score_link) . '" class="rp-rating-link" style="background:#'.esc_html($item_style_button_color).'">Check Price</a>
+                <a href="' . esc_url($item_score_link) . '" class="rp-rating-link" style="background:#'.esc_html($item_style_button_color).'" target="_blank">Check Price</a>
 
             </div>
         
@@ -341,12 +332,12 @@ function rp__review_sc($atts, $content = null) {
 
         // Check if item_button_1 exists
         if (!empty($item_button_1[0])) {
-            $html .= '<a href="' . esc_url($item_button_1[2]) . '" class="review-link">' . esc_html($item_button_1[0]) . '<br/>(' . esc_html($item_button_1[1]) . ')</a>';
+            $html .= '<a href="' . esc_url($item_button_1[2]) . '" class="review-link" target="_blank">' . esc_html($item_button_1[0]) . '<br/>(' . esc_html($item_button_1[1]) . ')</a>';
         }
 
         // Check if item_button_2 exists
         if (!empty($item_button_2[0])) {
-            $html .= '<a href="' . esc_url($item_button_2[1]) . '" class="review-link">' . esc_html($item_button_2[0]) . '</a>';
+            $html .= '<a href="' . esc_url($item_button_2[1]) . '" class="review-link" target="_blank">' . esc_html($item_button_2[0]) . '</a>';
         }
 
         $html .= '</div>';
@@ -432,7 +423,7 @@ function sbly_slider_item_shortcode($atts) {
     foreach ($buying_options as $option) {
         $option_parts = explode(',', trim($option));
         if (count($option_parts) === 2) {
-            $output .= '<a href="' . trim($option_parts[1]) . '">' . trim($option_parts[0]) . '</a>';
+            $output .= '<a href="' . trim($option_parts[1]) . '" target="_blank">' . trim($option_parts[0]) . '</a>';
         }
     }
     

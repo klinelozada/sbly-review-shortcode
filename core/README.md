@@ -71,29 +71,10 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 #### Shortcode Usage
 ```
 [sbly_slider_review headline="Everything we recommend"]
-
-[sbly_slider_item
-item_headline="Our Pick"
-item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg"
-item_title="Ultimate Ears Wonderboom 3"
-item_link="https://google.com/"
-item_label="The best portable Bluetooth speaker"
-item_description="This small, round speaker has a natural sound and a cool design, and it's built to survive outdoor adventures. But it's a little chunky, and it uses an outdated Micro-USB port for charging."
-item_buying_options_1="$80 from Amazon, https://link.com"
-item_buying_options_2="$60 from Ebay, https://ebay.com"
-]
-
-[sbly_slider_item
-item_headline="Runner Up"
-item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg"
-item_title="Soundcore Motion 300"
-item_link="https://google.com/"
-item_label="If USB-C charging is a must-have"
-item_description="This speaker is larger than our top pick, but its slender form may fit more easily into tight spaces. The sound quality is comparable, and it offers convenient USB-C charging."
-item_buying_options_1="$80 from Amazon, https://link.com"
-item_buying_options_2="$60 from Ebay, https://ebay.com"
-]
-
+[sbly_slider_item item_headline="Our Pick" item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg" item_title="Ultimate Ears Wonderboom 3" item_link="https://google.com/" item_label="The best portable Bluetooth speaker" item_description="This small, round speaker has a natural sound and a cool design, and it's built to survive outdoor adventures. But it's a little chunky, and it uses an outdated Micro-USB port for charging." item_buying_options_1="$80 from Amazon, https://link.com" item_buying_options_2="$60 from Ebay, https://ebay.com"]
+[sbly_slider_item item_headline="Runner Up" item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg" item_title="Soundcore Motion 300" item_link="https://google.com/" item_label="If USB-C charging is a must-have" item_description="This speaker is larger than our top pick, but its slender form may fit more easily into tight spaces. The sound quality is comparable, and it offers convenient USB-C charging." item_buying_options_1="$80 from Amazon, https://link.com" item_buying_options_2="$60 from Ebay, https://ebay.com"]
+[sbly_slider_item item_headline="Our Pick" item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg" item_title="Ultimate Ears Wonderboom 3" item_link="https://google.com/" item_label="The best portable Bluetooth speaker" item_description="This small, round speaker has a natural sound and a cool design, and it's built to survive outdoor adventures. But it's a little chunky, and it uses an outdated Micro-USB port for charging." item_buying_options_1="$80 from Amazon, https://link.com" item_buying_options_2="$60 from Ebay, https://ebay.com"]
+[sbly_slider_item item_headline="Runner Up" item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg" item_title="Soundcore Motion 300" item_link="https://google.com/" item_label="If USB-C charging is a must-have" item_description="This speaker is larger than our top pick, but its slender form may fit more easily into tight spaces. The sound quality is comparable, and it offers convenient USB-C charging." item_buying_options_1="$80 from Amazon, https://link.com" item_buying_options_2="$60 from Ebay, https://ebay.com"]
 [/sbly_slider_review]
 ```
 
@@ -104,12 +85,7 @@ item_buying_options_2="$60 from Ebay, https://ebay.com"
 
 #### Shortcode Usage
 ```
-[sbly_checklist headline="How we picked and tested" link="Read More, https://google.com"]
-[sbly_checklist_item title="Panel Testing" description="We tested Bluetooth speakers with expert listeners, and we concealed the identities of the speakers to eliminate bias"]
-[sbly_checklist_item title="Real-world Trials" description="We continue to spend many hours with our recommended speakers to make sure they survive day-to-day use."]
-[sbly_checklist_item title="Wide range of models" description="The speakers we tested ranged from tiny travel models to 40-pound backyard blasters. All of them included rechargeable batteries."]
-[sbly_checklist_item title="Price Range" description="To give readers a full picture of the category, we tested models priced as low as $10 and as high as $500."]
-[/sbly_checklist]
+[sbly_checklist headline="How we picked and tested" link="Read More, https://google.com"][sbly_checklist_item title="Panel Testing" description="We tested Bluetooth speakers with expert listeners, and we concealed the identities of the speakers to eliminate bias"][sbly_checklist_item title="Real-world Trials" description="We continue to spend many hours with our recommended speakers to make sure they survive day-to-day use."][sbly_checklist_item title="Wide range of models" description="The speakers we tested ranged from tiny travel models to 40-pound backyard blasters. All of them included rechargeable batteries."][sbly_checklist_item title="Price Range" description="To give readers a full picture of the category, we tested models priced as low as $10 and as high as $500."][/sbly_checklist]
 ```
 
 ## Contribution
