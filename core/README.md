@@ -54,11 +54,11 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 #### Shortcode Usage
 ```
-[rp__review item_label="Our Pick" item_title="Nest Bedding Easy Breather Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/20568/The-Easy-Breather-Pillow_20180416-200643_full.jpg" item_button_1="$179 from Tempur-Pedic, queen size, https://www.nytimes.com/wirecutter/out/link/20568/109771/4/109232?merchant=Nest%20Bedding" item_tags="Best memory-foam pillow"]
+[rp__review item_label="Our Pick" item_title="Nest Bedding Easy Breather Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/20568/The-Easy-Breather-Pillow_20180416-200643_full.jpg" item_button_1="$179 from Tempur-Pedic, queen size, https://www.nytimes.com/wirecutter/out/link/20568/109771/4/109232?merchant=Nest%20Bedding" item_tags="Best memory-foam pillow" item_link="https://google.com/"]
 [rp_excerpt]Our testers love shredded foam more than any other type, and this pillow is a longtime favorite. It has moldable, customizable filling that gives back- and side-sleepers firm support.[/rp_excerpt]
 [/rp__review]
 
-[rp__review item_label="Budget Pick" item_title="Weekender Gel Memory Foam Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/32744/Weekender-Gel-Memory-Foam-Pillow-_20190531-133508_full.jpeg" item_button_1="$32 from Amazon, standard size, https://www.nytimes.com/wirecutter/out/link/32744/154072/4/109234?merchant=Amazon" item_button_2="$51 from Walmart, https://www.nytimes.com/wirecutter/out/link/32744/173820/4/109234?merchant=Walmart" item_tags="A high-quality layered-foam pillow"]
+[rp__review item_label="Budget Pick" item_title="Weekender Gel Memory Foam Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/32744/Weekender-Gel-Memory-Foam-Pillow-_20190531-133508_full.jpeg" item_button_1="$32 from Amazon, standard size, https://www.nytimes.com/wirecutter/out/link/32744/154072/4/109234?merchant=Amazon" item_button_2="$51 from Walmart, https://www.nytimes.com/wirecutter/out/link/32744/173820/4/109234?merchant=Walmart" item_tags="A high-quality layered-foam pillow" item_link="https://yahoo.com/"]
 [rp_excerpt]The most affordable memory-foam pillow we tried is also our favorite one-piece foam pillow. It offered some of the best neck and shoulder support without overheating our testers.[/rp_excerpt]
 [/rp__review]
 ```

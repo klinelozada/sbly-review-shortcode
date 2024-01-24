@@ -291,13 +291,13 @@ function rp__review_sc($atts, $content = null) {
 
     $atts = shortcode_atts(
         array(
-            'item_label' => 'Our Pick',
-            'item_title' => 'Nest Bedding Easy Breather Pillow',
-            'item_tags' => 'A high-quality layered-foam pillow',
-            'item_button_1' => '$179 from Tempur-Pedic, queen size, https://www.nytimes.com/wirecutter/out/link/32745/154073/4/109235?merchant=Tempur-Pedic',
+            'item_label' => '',
+            'item_title' => '',
+            'item_tags' => '',
+            'item_button_1' => '',
             'item_button_2' => '',
-            'item_image' => 'https://d1b5h9psu9yexj.cloudfront.net/32745/Tempur-Pedic-Tempur-Adapt-Pro---Cooling-Pillow--mid-density-_20190603-155806_full.jpeg',
-            'item_link' => 'https://www.nytimes.com/wirecutter/out/link/32745/154073/4/109235?merchant=Tempur-Pedic',
+            'item_image' => '',
+            'item_link' => '',
         ),
         $atts,
         'rp__review_sc'
