@@ -946,6 +946,44 @@
   }
 }
 
+
+/* SBLY Review Header */
+
+.sbly--review-header-section {
+  background-size:cover;
+  background-position:center center;
+  padding:2rem;
+  border-radius:4px;
+  margin-bottom:2rem;
+}
+.sbly--review-header-section .sbly--review-header {
+  text-align:center;
+}
+.sbly--review-header-section .sbly--review-header h1,
+.sbly--review-header-section .sbly--review-header p {
+  color:#fff;
+}
+.sbly--review-header-section .sbly--review-header h1 {
+  margin:2rem auto 1rem;
+}
+.sbly--review-header-section .sbly--review-header p {
+  font-weight:300;
+  margin:0 auto 2rem;
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width:350px) and (max-width:540px) {
+  .sbly--review-header-section .sbly--review-header h1 {
+    font-size:1.55rem;
+  }
+  .sbly--review-header-section .sbly--review-header p {
+    margin-top:0;
+  }
+}
+
 /* JQ Stars */
 .jq-stars {
 	display: inline-block
