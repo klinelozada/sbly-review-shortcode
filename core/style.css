@@ -947,7 +947,6 @@
 }
 
 /* SBLY Top 3 */
-
 .sbly--review-top-3-section {
   width: 100%;
 }
@@ -1152,6 +1151,30 @@
   border-radius: 4px;
 }
 
+/* SBLY Review Header */
+
+.sbly--review-header-section {
+  background-size:cover;
+  background-position:center center;
+  padding:2rem;
+  border-radius:4px;
+  margin-bottom:2rem;
+}
+.sbly--review-header-section .sbly--review-header {
+  text-align:center;
+}
+.sbly--review-header-section .sbly--review-header h1,
+.sbly--review-header-section .sbly--review-header p {
+  color:#fff;
+}
+.sbly--review-header-section .sbly--review-header h1 {
+  margin:2rem auto 1rem;
+}
+.sbly--review-header-section .sbly--review-header p {
+  font-weight:300;
+  margin:0 auto 2rem;
+}
+
 @media only screen and (min-width: 541px) and (max-width: 768px) {
 
 }
@@ -1210,6 +1233,12 @@
   .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn a {
     font-size:1rem;
     padding:.8rem 2rem;
+  }
+  .sbly--review-header-section .sbly--review-header h1 {
+    font-size:1.55rem;
+  }
+  .sbly--review-header-section .sbly--review-header p {
+    margin-top:0;
   }
 }
 
