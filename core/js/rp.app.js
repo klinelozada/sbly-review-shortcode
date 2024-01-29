@@ -54,4 +54,10 @@ $(document).ready(function() {
         });
     });
 
+    $('.sbly--ads-btn').hover(function() {
+        $('.sbly--hidden-bubble').fadeIn(300);
+    }, function() {
+        $('.sbly--hidden-bubble').fadeOut(300);
+    });
+
 });
