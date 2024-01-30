@@ -64,3 +64,9 @@ require_once(plugin_dir_path(__FILE__) . '/shortcodes/sbly-recommend-slider.php'
 // ========================================================================================================
 
 require_once(plugin_dir_path(__FILE__) . '/shortcodes/sbly-checklist.php');
+
+// ========================================================================================================
+// SBLY BEST PRODUCT
+// ========================================================================================================
+
+require_once(plugin_dir_path(__FILE__) . '/shortcodes/sbly-review-best-product.php');
