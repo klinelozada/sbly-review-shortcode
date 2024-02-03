@@ -25,6 +25,9 @@ function enqueue_custom_scripts() {
     // Enqueue RP App
     wp_enqueue_script('rp-app', plugin_dir_url( __FILE__ ) . 'js/rp.app.js', array(), '1.0.0', true);
 
+    // Font Awesome
+    wp_enqueue_script('font-awesome', 'https://kit.fontawesome.com/fbff215a2d.js', array(), null, true );
+
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
