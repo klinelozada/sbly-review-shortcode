@@ -88,5 +88,40 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 [sbly_checklist headline="How we picked and tested" link="Read More, https://google.com"][sbly_checklist_item title="Panel Testing" description="We tested Bluetooth speakers with expert listeners, and we concealed the identities of the speakers to eliminate bias"][sbly_checklist_item title="Real-world Trials" description="We continue to spend many hours with our recommended speakers to make sure they survive day-to-day use."][sbly_checklist_item title="Wide range of models" description="The speakers we tested ranged from tiny travel models to 40-pound backyard blasters. All of them included rechargeable batteries."][sbly_checklist_item title="Price Range" description="To give readers a full picture of the category, we tested models priced as low as $10 and as high as $500."][/sbly_checklist]
 ```
 
+## New Features
+
+### SBLY Header
+#### Screenshots
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/sbly--header.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/sbly--header.png)
+
+#### Shortcode Usage
+```
+[sbly_review_header title="We Reviewed 2024’s Best Bedding" background_image="https://www.momsfavoritesheets.com/imagens/BambooDuvetCover.webp"]
+```
+
+### SBLY Top 3
+#### Screenshots
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/sbly--top-3.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/sbly--top-3.png)
+
+#### Shortcode Usage
+```
+[sbly_top_3][sbly_top_3_item item_image="https://www.momsfavoritesheets.com/imagens/cozy.jpg" item_rate="9.9" item_rate_label="Excellent" item_title="COZY EARTH" item_specs="#1 Bed Sheet 2024, Bamboo, Sustainably Sourced, Temperature Regulating, 100 Night Sleep Trial, Oprah's Favorite Things - 5 Years In A Row" item_link="https://google.com/" item_save="25%" item_visitors="13487"][sbly_top_3_item item_image="https://www.momsfavoritesheets.com/imagens/cozy-miracle.jpg" item_rate="9.2" item_rate_label="Great" item_title="MIRACLE" item_specs="Sexy Black Sheets, Luxury & Quality, Veteran owned, Ultra-Soft, Environmentally Responsible" item_link="https://google.com/"][sbly_top_3_item item_image="https://www.momsfavoritesheets.com/imagens/sleepgram+logo.jpg" item_rate="9.1" item_rate_label="Great" item_title="SLEEPGRAM" item_specs="Naturally Dyed, Viscose Bamboo, Cool-To-Touch, Cool Striped Pattern, Soft Touch" item_link="https://google.com/"][/sbly_top_3]
+```
+
+### SBLY Top 1
+#### Screenshots
+![Desktop Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/desktop/sbly--top-1.png)
+![Mobile Version](https://raw.githubusercontent.com/klinelozada/sbly-review-shortcode/main/core/screenshots/mobile/sbly--top-1.png)
+
+#### Shortcode Usage
+```
+[sbly_top_product headline="BEST OVERALL BED SHEETS"]
+[sbly_top_product_item item_image="https://www.momsfavoritesheets.com/imagens/cozy.jpg" item_rate="9.9" item_rate_label="Excellent" item_title="Cozy Earth" item_specs="#1 Bed Sheet 2024, Bamboo, Sustainably Sourced, Temperature Regulating, 100 Night Sleep Trial, Oprah's Favorite Things - 5 Years In A Row, Best For Weight Sensor" item_link="https://www.momsfavoritesheets.com/oft/" item_save="25%" item_visitors="13487"]
+[sbly_top_product_item_feature item_feature="https://www.momsfavoritesheets.com/imagens/cardBest1.png | MOST COMFORTABLE | Ultra soft fabric made for the most comfy beds.||https://www.momsfavoritesheets.com/imagens/cardBest2.png | PREMIUM | For an unbeatable price of $255, the Cozy Earth sheets are unmatched in quality, comfort and price compared to its competitors.||https://www.momsfavoritesheets.com/imagens/CarrdBest3.png | OPRAH APPROVED | Oprah described the bedding as the 'softest EVER'."]
+[/sbly_top_product]
+```
+
 ## Contribution
 We welcome contributions from the open-source community. If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request. Together, we can make this tool even more versatile and powerful.

@@ -60,4 +60,38 @@ $(document).ready(function() {
         $('.sbly--hidden-bubble').fadeOut(300);
     });
 
+    function getLabelForItem(index) {
+        if (index === 0) { // For the first item
+            var currentYear = new Date().getFullYear();
+            return `"#1 PICK IN ${currentYear}"`;
+        } else {
+            return getOrdinalIndicator(index + 1);
+        }
+    }
+
+    function getOrdinalIndicator(i) {
+        var j = i % 10,
+            k = i % 100;
+        if (j == 1 && k != 11) {
+            return `"${i}st"`;
+        }
+        if (j == 2 && k != 12) {
+            return `"${i}nd"`;
+        }
+        if (j == 3 && k != 13) {
+            return `"${i}rd"`;
+        }
+        return `"${i}th"`;
+    }
+
+    var styleHTML = "<style>";
+    $('.sbly--review-top-3-item').each(function(index) {
+        var label = getLabelForItem(index);
+        styleHTML += `.sbly--review-top-3-item:nth-child(${index + 1})::before { content: ${label}; }`;
+    });
+    styleHTML += "</style>";
+
+    // Append the styles to the head
+    $('head').append(styleHTML);
+
 });

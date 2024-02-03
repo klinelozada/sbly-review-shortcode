@@ -58,6 +58,7 @@ function sbly_top_3_item($atts) {
     $output .= '<h2>' . esc_html($atts['item_rate']) . '</h2>';
     $output .= '<div class="item-stars">';
     $output .= '<span>' . esc_html($atts['item_rate_label']) . '</span>';
+    $output .= '<div class="sbly--stars"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>';
     $output .= '</div>';
     $output .= '</div>';
     $output .= '</div>';
@@ -65,7 +66,7 @@ function sbly_top_3_item($atts) {
     $output .= '<div class="item-right">';
     $output .= '<div class="item-specs">';
     $output .= '<div class="item-title">';
-    $output .= '<h2>' . esc_html($atts['item_title']) . '</h2>';
+    $output .= '<h2>' . esc_html($atts['item_title']) . '</h2><hr>';
     $output .= '</div>';
     $output .= '<ul>';
     $specs = explode(", ", $atts['item_specs']);

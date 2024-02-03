@@ -972,6 +972,7 @@
 /* SBLY Top 3 */
 .sbly--review-top-3-section {
   width: 100%;
+  max-width:994px!important;
 }
 
 .sbly--advertiser {
@@ -1030,21 +1031,28 @@
 
 .sbly--review-top-3-section .sbly--review-top-3-header .sbly--item-label:nth-child(1),
 .sbly--review-top-3-section .sbly--review-top-3-header .sbly--item-label:nth-child(2) {
-  width:15%;
+  width:20%;
 }
 
 .sbly--review-top-3-section .sbly--review-top-3-header .sbly--item-label:nth-child(3) {
-  width:70%;
+  width:60%;
   text-align:left;
   text-indent:1rem;
 }
 
-.sbly--review-top-3-section .sbly--review-top-3 {
-  
+.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item:before {
+  top:0;
+  left:0;
+  background:#E8E8E8;
+  position: absolute;
+  padding: .4rem .6rem;
+  font-size: .8rem; 
+  border-radius:0 0 4px 0;
 }
 
-.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item:nth-child(1) {
-  
+.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item:nth-child(1):before {
+  background:#79AE38;
+  color:#fff;
 }
 
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item {
@@ -1056,15 +1064,17 @@
   background:#fff;
   border-radius:4px;
   margin-bottom:1rem;
+  position:relative;
 }
 
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-left {
-  width: 30%;
+  width: 40%;
   display:flex;
+  align-items:center;
 }
 
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-right {
-  width: 70%;
+  width: 60%;
   display:flex;
 }
 
@@ -1104,6 +1114,15 @@
   
 }
 
+.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-rating .item-stars p {
+  display:none;
+}
+
+.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-rating .item-stars .sbly--stars {
+  font-size:.8rem;
+  color:#1B64C6;
+}
+
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-specs {
   width:50%;
 }
@@ -1127,6 +1146,14 @@
   
 }
 
+.sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-specs ul li:before {
+  content:"\f058";
+  font-family:"Font Awesome 6 Pro";
+  font-weight:900;
+  margin-right:.5rem;
+  color:#5DB964;
+}
+
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn {
   width:50%;
   vertical-align: bottom;
@@ -1142,7 +1169,7 @@
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn .item-bubble {
   font-size:.6rem;
   text-align:center;
-  background:#000;
+  background:#E9525E;
   color:#fff;
   padding:.8rem .8rem;
   border-radius:6px;
@@ -1154,11 +1181,10 @@
   border-style: solid;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  border-top: 10px solid #000;
+  border-top: 10px solid #E9525E;
   border-bottom: 0;
   position:absolute;
-  bottom:72px;
-  left:40px;
+  bottom:68px;
 }
 
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn p {
@@ -1168,7 +1194,7 @@
 .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn a {
   font-size: .8rem;
   text-decoration: none;
-  background: #000;
+  background: #78AE38;
   color: #fff;
   padding: .6rem 1rem;
   border-radius: 4px;
@@ -1227,6 +1253,9 @@
     border-bottom:solid #333 1px;
     padding:1rem 0;
   }
+  .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-specs .item-title hr {
+    display:none;
+  }
   .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-specs .item-title h2 {
     font-size:1.2rem;
   }
@@ -1247,6 +1276,9 @@
   .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-specs,
   .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn {
     width:100%;
+  }
+  .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn .item-bubble {
+    font-size:.8rem;
   }
   .sbly--review-top-3-section .sbly--review-top-3 .sbly--review-top-3-item .item-buy-btn .item-bubble:after {
     bottom:52px;
@@ -1320,6 +1352,7 @@
   color:#fff;
   padding:.4rem .6rem;
   font-size:.8rem;
+  border-radius:0 0 4px 0;
 }
 .sbly--review-top-1-section .sbly--review-top-1-header h1 {
   margin:0;
@@ -1448,7 +1481,7 @@
   content:"\f058";
   font-family:"Font Awesome 6 Pro";
   font-weight:900;
-  margin-right:.2rem;
+  margin-right:.5rem;
   color:#5DB964;
 }
 
@@ -1482,7 +1515,7 @@
   border-top: 10px solid #E9525E;
   border-bottom: 0;
   position:absolute;
-  bottom:72px;
+  bottom:78px;
 }
 
 .sbly--review-top-1-section .sbly--review-top-1 .sbly--review-top-1-item .item-buy-btn p {

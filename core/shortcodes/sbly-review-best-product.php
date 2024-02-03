@@ -45,7 +45,7 @@ function sbly_top_product_item_shortcode($atts, $content = null) {
     $output .= '</div>'; // Close item-left
     $output .= '<div class="item-right">';
     $output .= '<div class="item-specs"><div class="item-title"><h2>' . esc_html($item_title) . '</h2><hr></div>' . $specs_list . '</div>';
-    $output .= '<div class="item-buy-btn"><div class="item-bubble">Save up to ' . esc_html($item_save) . ' <br>' . esc_html($item_visitors) . ' VISITORS BOUGHT<br> DURING SALE</div>';
+    $output .= '<div class="item-buy-btn"><div class="item-bubble">Save up to ' . esc_html($item_save) . ' <br>' . number_format(esc_html($item_visitors)) . ' VISITORS BOUGHT<br> DURING SALE</div>';
     $output .= '<p><a href="' . esc_url($item_link) . '">Visit ' . esc_html($item_title) . ' &gt;</a></p></div>';
     $output .= '</div>'; // Close item-right
     $output .= '</div>'; // Close sbly--review-top-1-item
