@@ -80,7 +80,7 @@ function sbly_top_3_item($atts) {
     if (!empty($atts['item_save'])) {
         $output .= '<div class="item-bubble">Save up to ' . esc_html($atts['item_save']) . ' <br/> ' . number_format(esc_html($atts['item_visitors'])) . ' VISITORS BOUGHT<br/> DURING SALE</div>';
     }
-    $output .= '<a href="' . esc_url($atts['item_link']) . '">Visit ' . esc_html($atts['item_title']) . ' ></a>';
+    $output .= '<a href="' . esc_url($atts['item_link']) . '" target="_blank">Visit ' . esc_html($atts['item_title']) . ' ></a>';
     $output .= '</div>';
     $output .= '</div>';
 

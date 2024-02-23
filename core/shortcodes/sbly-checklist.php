@@ -26,7 +26,7 @@ function sbly_checklist_shortcode($atts, $content = null) {
     $output .= '<h1>' . esc_html($atts['headline']) . '</h1>';
     $output .= '</div>';
     $output .= '<div class="sbly--read-more">';
-    $output .= '<a href="' . esc_url($link_url) . '">' . esc_html($link_title) . ' ';
+    $output .= '<a href="' . esc_url($link_url) . '" target="_blank">' . esc_html($link_title) . ' ';
     $output .= '<svg width="18" height="11" viewBox="0 0 18 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg">';
     $output .= '<path fill-rule="evenodd" clip-rule="evenodd" d="M15.3302 6.13884L1.11684e-07 6.13884L0 4.86133L15.3302 4.86133L15.3302 6.13884Z"></path>';
     $output .= '<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2891 5.49932L11.5703 1.68697L12.4848 0.794922L17.0738 5.49932L12.4848 10.2037L11.5703 9.31168L15.2891 5.49932Z"></path>';
