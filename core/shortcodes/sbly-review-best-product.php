@@ -6,8 +6,13 @@
 
 // Main product section shortcode
 function sbly_top_product_shortcode($atts, $content = null) {
+    $atts = shortcode_atts([
+        'headline' => '',
+        'product_link' => ''
+    ], $atts);
+
     $output = '<div class="sbly--review-top-1-section">';
-    $output .= '<div class="sbly--review-top-1-header"><h1>' . esc_html($atts['headline']) . '</h1></div>';
+    $output .= '<div class="sbly--review-top-1-header"><h1><a href="' . esc_url($atts['product_link']) . '" target="_blank">' . esc_html($atts['headline']) . '</a></h1></div>';
     $output .= do_shortcode($content); // Ensure nested shortcodes are processed
     $output .= '</div>';
     return $output;
@@ -40,11 +45,11 @@ function sbly_top_product_item_shortcode($atts, $content = null) {
     // Item detail structure
     $output .= '<div class="sbly--review-top-1-item">';
     $output .= '<div class="item-left">';
-    $output .= '<div class="item-image"><img src="' . esc_url($item_image) . '"></div>';
+    $output .= '<div class="item-image"><a href="' . esc_url($item_link) . '" target="_blank"><img src="' . esc_url($item_image) . '"></a></div>';
     $output .= '<div class="item-rating"><h2>' . esc_html($item_rate) . '</h2><div class="item-stars"><span>' . esc_html($item_rate_label) . '</span><div class="sbly--stars"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div></div></div>';
     $output .= '</div>'; // Close item-left
     $output .= '<div class="item-right">';
-    $output .= '<div class="item-specs"><div class="item-title"><h2>' . esc_html($item_title) . '</h2><hr></div>' . $specs_list . '</div>';
+    $output .= '<div class="item-specs"><div class="item-title"><h2><a href="' . esc_url($item_link) . '" target="_blank">' . esc_html($item_title) . '</a></h2><hr></div>' . $specs_list . '</div>';
     $output .= '<div class="item-buy-btn"><div class="item-bubble">Save up to ' . esc_html($item_save) . ' <br>' . number_format(esc_html($item_visitors)) . ' VISITORS BOUGHT<br> DURING SALE</div>';
     $output .= '<p><a href="' . esc_url($item_link) . '" target="_blank">Visit ' . esc_html($item_title) . ' &gt;</a></p></div>';
     $output .= '</div>'; // Close item-right

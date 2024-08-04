@@ -973,7 +973,7 @@
 .sbly--review-top-3-section {
   width: 100%;
   max-width:994px!important;
-  margin:3rem 0;
+  margin:3rem auto;
 }
 
 .sbly--advertiser {
@@ -1381,7 +1381,7 @@
 .sbly--review-top-1-section {
   width: 100%;
   max-width:994px!important;
-  margin:3rem 0;
+  margin:3rem auto;
 }
 .sbly--review-top-1-section .sbly--review-top-1-header {
   display:block;
@@ -1405,6 +1405,10 @@
   color:#fff;
   font-size:2rem;
   letter-spacing:0.2rem;
+}
+.sbly--review-top-1-section .sbly--review-top-1-header h1 a,
+.sbly--review-top-1-section .sbly--review-top-1 .sbly--review-top-1-item .item-specs .item-title h2 a {
+  text-decoration:none;
 }
 .sbly--review-top-1-section .sbly--review-top-1-header .sbly--item-label {
   font-size:.8rem;

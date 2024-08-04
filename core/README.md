@@ -117,7 +117,7 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 #### Shortcode Usage
 ```
-[sbly_top_product headline="BEST OVERALL BED SHEETS"]
+[sbly_top_product headline="BEST OVERALL BED SHEETS" product_link="https://www.momsfavoritesheets.com/oft/"]
 [sbly_top_product_item item_image="https://www.momsfavoritesheets.com/imagens/cozy.jpg" item_rate="9.9" item_rate_label="Excellent" item_title="Cozy Earth" item_specs="#1 Bed Sheet 2024, Bamboo, Sustainably Sourced, Temperature Regulating, 100 Night Sleep Trial, Oprah's Favorite Things - 5 Years In A Row, Best For Weight Sensor" item_link="https://www.momsfavoritesheets.com/oft/" item_save="25%" item_visitors="13487"]
 [sbly_top_product_item_feature item_feature="https://www.momsfavoritesheets.com/imagens/cardBest1.png | MOST COMFORTABLE | Ultra soft fabric made for the most comfy beds.||https://www.momsfavoritesheets.com/imagens/cardBest2.png | PREMIUM | For an unbeatable price of $255, the Cozy Earth sheets are unmatched in quality, comfort and price compared to its competitors.||https://www.momsfavoritesheets.com/imagens/CarrdBest3.png | OPRAH APPROVED | Oprah described the bedding as the 'softest EVER'."]
 [/sbly_top_product]
